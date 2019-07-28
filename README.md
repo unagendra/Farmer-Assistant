@@ -28,5 +28,10 @@ He can also get information about Soils and amount of Fertilizers to use for the
 
 Farmer can acess market information ie he can get to know information about prices of his crops in different loactions using this feature.
 
+<img src="images/Mark.png" width="1000">
 
-<img src="images/soilandFertilizer.png" width="1000">
+## Additional Features
+
+* Farming tools section provides information about operation of various farming tools
+* Farmer Login section also allows farmers to ask questions and obtain feedback from the user anything  related  to agriculture.
+* He can also keep record of Land Information ie the land he owns in different locations. 
