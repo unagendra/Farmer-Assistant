@@ -18,6 +18,11 @@ The Root file or Home Page is given by file `tabs2.html`
 
 <img src="images/Home.png" width="1000">
 
-Farmer can acess information about crops using about crops section
+Farmer can acess information about crops using about crops section.
 
-<img src="images/aboutwheat.png" width="1000">
+<img src="images/aboutcrops.png" width="1000">
+
+He can also get information about Soils and amount of Fertilizers to use for the crops and about suitable conditions in which the crops grows.
+
+
+<img src="images/soilandFertilizer.png" width="1000">
