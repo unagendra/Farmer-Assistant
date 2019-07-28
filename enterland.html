@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 49%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 49%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<form action="my.php" method="POST">
+<fieldset>
+<legend> <h1> Land Information</h1></legend>
+
+<div>
+  <form action="/action_page.php">
+   
+
+    <label for="lname">Enter Farmer Name</label>
+    <input type="text" id="fname" name="frmrname" placeholder="farmer name..">
+	<label for="lname">Enter Location</label>
+    <input type="text" id="location" name="frmrlocation" placeholder="location..">
+	<label for="lname">Enter Land Type</label>
+    <input type="text" id="ltype" name="frmrtype" placeholder="land type..">
+	<label for="lname">Enter Acre</label>
+    <input type="text" id="facre" name="frmracre" placeholder="Acre..">
+
+
+
+
+    
+  
+    <input type="submit" value="Submit"> <input type="reset" value="Clear">
+  </form>
+</div>
+
+
+</fieldset>
+</form>
+
+</body>
+</html>

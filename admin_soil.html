@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 49%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 49%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+<form action="adminsoil.php" method="POST">
+<fieldset>
+<legend> <h1> Land Information</h1></legend>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Enter Crop Name:</label>
+    <input type="text" id="cropname" name="cropname" placeholder="Crop name">
+
+    <label for="lname">Enter Land Type</label>
+    <input type="text" id="landtype" name="landtype" placeholder="Land Type..">
+	<label for="lname">Enter Best Fertilizer</label>
+    <input type="text" id="bstfrtlzr" name="bstfrtlzr" placeholder="best fertilizer..">
+	
+
+
+
+    
+  
+    <input type="submit" value="Submit"> <input type="reset" value="Clear">
+  </form>
+</div>
+
+
+</fieldset>
+</form>
+
+</body>
+</html>
