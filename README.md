@@ -24,5 +24,9 @@ Farmer can acess information about crops using about crops section.
 
 He can also get information about Soils and amount of Fertilizers to use for the crops and about suitable conditions in which the crops grows.
 
+<img src="images/soilandFertilizer.png" width="1000">
+
+Farmer can acess market information ie he can get to know information about prices of his crops in different loactions using this feature.
+
 
 <img src="images/soilandFertilizer.png" width="1000">
