@@ -16,3 +16,8 @@ Back End
 
 The Root file or Home Page is given by file `tabs2.html`
 
+<img src="images/Home.png" width="1000">
+
+Farmer can acess information about crops using about crops section
+
+<img src="images/aboutwheat.png" width="1000">
